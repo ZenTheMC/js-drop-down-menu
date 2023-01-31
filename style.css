@@ -1,0 +1,45 @@
+/* My first draft css that was linked to my draft on HTML and JS
+.menu {
+    display: none;
+}
+*/
+
+.revealing-button {
+    background-color: black;
+    color: red;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.revealing-button:hover, .revealing-button:focus {
+    background-color: rgb(61, 61, 61);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 1;
+}
+
+.content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.content a:hover {
+    background-color: rgb(255, 211, 211);
+}
+
+.show {
+    display: block
+}
